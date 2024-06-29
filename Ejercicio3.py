@@ -2,7 +2,7 @@
 edad (mayor o igual a 18 años) o no.
 '''
 Edad = 30
-if Edad > 18:
+if Edad >= 18:
   print ("Es mayor de edad")
 else:
   print ("No es mayor de edad")
