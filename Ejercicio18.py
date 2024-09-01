@@ -6,4 +6,4 @@ palabras = Oracion.split()
 Count=0
 for x in palabras:
   Count = Count +1
-print (palabras, Count)
+print (Count)

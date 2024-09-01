@@ -11,3 +11,15 @@ def Área_rectángulo (Altura, Base):
   return Altura * Base
 Área = Área_rectángulo (5, 15)
 print (Área)
+
+'''SOLUCION'''
+
+def calcular_area_rectangulo(longitud, ancho):
+  area = longitud * ancho
+  return area
+
+longitud = float(input("Introduce la longitud del rectangulo: "))
+ancho = float(input("Introduce el ancho del rectangulo: "))
+
+area_rectangulo = calcular_area_rectangulo(longitud, ancho)
+print(f"El area del rectangulo es: {area_rectangulo}")

@@ -5,6 +5,6 @@ suma = 0
 for numero in numeros:
  if numero % 2 ==0:
    suma = suma + numero
-   print (suma)
+print (suma)
 
 
